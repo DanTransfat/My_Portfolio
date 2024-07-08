@@ -30,9 +30,9 @@ const Navbar = () => {
                     <NavLink to="/resume" activeStyle>
                         Resume
                     </NavLink>
-                    <NavLink to="/about" activeStyle>
+                    {/* <NavLink to="/about" activeStyle>
                         About
-                    </NavLink>
+                    </NavLink> */}
                 </NavMenu>
             </Nav>
             <DividerContainer>

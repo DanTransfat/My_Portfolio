@@ -16,7 +16,7 @@ const Resume = () => {
                     display: "block",
                     justifyContent: "center",
                     alignItems: "center",
-                    height: "80vh",
+                    height: "120vh",
                     width: "80%",
                     background: "#262626",
                     paddingBottom: "10vh"
@@ -44,12 +44,22 @@ const Resume = () => {
                     background: "#262626",
                     // background: "#262626"
                 }}>
+                    <a href={require("../files/Daniel_Tran_Resume_7_6.pdf")} download="Daniel_Tran_Resume" style={{
+                        color: "#ADD8E6",
+                        fontSize: "3vh"
+                    }}>Click to download my resume</a>
+                    <p style={{
+                        border: '2px solid black', borderRadius: '10px', padding: '20px', borderColor: "#00c2ff"
+                    }}>
                     Springfield, VA | danieldtran2001@gmail.com | (571) 213-6211 <br></br>
                     EDUCATION <br></br>
                     George Mason University, Fairfax VA	May 2024<br></br>
                     Bachelor of Science: Computer Science<br></br> 
                     • Notable Courses: Object Oriented Programming, Data Structures, Database Concepts, Operating Systems, Artificial Intelligence, Advanced Composition (Natural Sciences & Technology), Web Application                                                                                                             
-                    <br></br><br></br>
+                    </p>
+                    <p style={{
+                        border: '2px solid black', borderRadius: '10px', padding: '20px', borderColor: "#00c2ff"
+                    }}>
                     WORK EXPERIENCE<br></br>
                     United States Central Command (CENTCOM) – Software Engineer – Remote – Aug 2023 – May 2024 <br></br>
                     • Designed, developed, and implemented an analyzing tool to scrape through news websites to produce an analysis product. The analyzing tool is built with Open AI and Python for the analyzing engine along with jQuery, JavaScript, and CSS to render reports to the CENTCOM analysts.<br></br>
@@ -62,8 +72,10 @@ const Resume = () => {
                     • Created a Microsoft SQL database to support the application<br></br>
                     • Developed REST APIs using Maven and Spring Boot to perform CRUD operations<br></br>
                     • Designed an Angular front end to manage trainees’ information, class registrations, and communications<br></br>
-                    <br></br>
-                    
+                    </p>
+                    <p style={{
+                        border: '2px solid black', borderRadius: '10px', padding: '20px', borderColor: "#00c2ff"
+                    }}>
                     TECHNICAL SKILLS (Intermediate)<br></br>
                     • Programming Languages: Python, Java, C, HTML, JavaScript, CSS, XML<br></br>
                     • Software/Frameworks: Spring Boot, Spring MVC, Maven, GIT, Postman, JUnit, jQuery, Docker, Asana, Hibernate<br></br>
@@ -72,12 +84,14 @@ const Resume = () => {
                     • IDE: Eclipse, Spring Tool Suite, Android Studio<br></br>
                     • Office Automation: MS Office/Google Products<br></br>
                     • Conferencing tools: Zoom, MS Teams, Google Meets
-                    <br></br><br></br>
-
+                    <br></br></p>
+                    <p style={{
+                        border: '2px solid black', borderRadius: '10px', padding: '20px', borderColor: "#00c2ff"
+                    }}>
                     LEADERSHIP<br></br>
                     Scouts of America	Falls Church, VA
                     Eagle Scouts	Earned on September 2019
-
+                    <br></br>  </p>
                     
                 </div>
             </div>
